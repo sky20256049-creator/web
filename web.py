@@ -421,7 +421,7 @@ elif opsi == "Surat Pernyataan":
     <ol>
         <li>Cetak surat pernyataan</li>
         <li>Isi dengan benar</li>
-        <li>Lapor instruktur/dosen</li>
+        <li>Lapor kepala bengkel sesuai prodi</li>
     </ol>
     </div>
     """, unsafe_allow_html=True)
