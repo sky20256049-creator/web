@@ -238,10 +238,10 @@ if opsi == "Sakit":
     else:
         st.markdown("""
         <div style="
-        background-color: rgba(255,255,255,0.8);
-        padding: 15px;
-        border-radius: 10px;
-        color: black;
+             background-color: rgba(255,255,255,0.8);
+             padding: 15px;
+             border-radius: 10px;
+            color: black;
         ">
             <p style="font-size:20px; color:black;">
                 Prosedur:
@@ -348,26 +348,48 @@ elif opsi == "Pindah Section":
 
 elif opsi == "Interupsi":
     st.subheader("⏸ Interupsi")
-    st.markdown("""
-    <div style="
-            background-color: rgba(255,255,255,0.8);
-            padding: 15px;
-            border-radius: 10px;
-            color: black;
-        ">
-    <p style="font-size:40px; color:black;">
-                <b>Prosedur:</b>
-             </p>
-    <ol>
-        <li>Izin ke kepala bengkel minimal H-1</li>
-        <li>Pergi ke resepsionis </li>
-        <li>Isi surat dengan benar </li>
-        <li>Pastikan sampai ke dosen/intruktur pengajar</li>
-        <li>Jangan lupa tapping interupsi out sebelum keluar
-    </ol>
-    </div>
-    """, unsafe_allow_html=True)
 
+    if section == "Teori":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+            <p style="font-size:40px; color:black;">
+                <b>Prosedur :</b>
+            </p>
+            <ol>
+                <li>Ambil surat interupsi di AA (minta tanda tangan)</li>
+                <li>Isi surat dengan benar</li>
+                <li>Laporkan ke dosen pengampu</li>
+                <li>Letakkan surat di meja dosen di kelas atau titip ke ketua kelas</li>
+                <li>Jangan lupa tapping interupsi out sebelum keluar</li>
+                <li>Pastikan surat tersampaikan pada penghitung jam plus minus (setelah dosen pengajar mengetahui)</li>
+            </ol>
+            </div>
+            """, unsafe_allow_html=True)
+
+    elif section == "Praktek":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+            <p style="font-size:40px; color:black;">
+                <b>Prosedur :</b>
+            </p>
+            <ol>
+                <li>izin instruktur section</li>
+                <li>siapkan buku jam minus /MKL tergantung instruktur </li>
+                <li>isi buku/MKL dengan benar</li>
+                <li>Jangan lupa tapping interupsi out sebelum keluar</li>
+            </ol>
+            </div>
+            """, unsafe_allow_html=True)
 elif opsi == "Surat Pernyataan":
     st.subheader("📑 Surat Pernyataan")
     st.markdown("""
