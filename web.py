@@ -421,6 +421,8 @@ elif opsi == "Surat Pernyataan":
     <ol>
         <li>Cetak surat pernyataan</li>
         <li>Isi dengan benar</li>
+        <li>Jangan lupa tanda tangan diri sendiri dan orangtua/wali</li>
+        <li>Minta tanda tangan kepala bengkel sesuai prodi</li>
         <li>Lapor kepala bengkel sesuai prodi</li>
     </ol>
     </div>
