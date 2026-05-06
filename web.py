@@ -215,13 +215,14 @@ if opsi == "Sakit":
             color: black;
         ">
             <p style="font-size:20px; color:black;">
-                Prosedur
+                Prosedur:
             </p>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
-        - Surat izin tidak terencana (boleh menyusul)\n
-        - Surat dari orang tua/wali (dengan tanda tangan)\n
+           -<b> Surat izin tidak terencana (boleh menyusul)\n
+           -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
+        </b>
         </div>
         """, unsafe_allow_html=True)
 
@@ -236,14 +237,15 @@ if opsi == "Sakit":
         color: black;
         ">
             <p style="font-size:20px; color:black;">
-                Prosedur
+                Prosedur:
             </p>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
-           - Surat dokter (rumah sakit / puskesmas)\n
-           - Surat izin tidak terencana\n
-           - Surat dari orang tua/wali *(dengan tanda tangan)*\n
+           -<b> Surat dokter (rumah sakit / puskesmas)\n
+           -<b> Surat izin tidak terencana\n
+           -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
         3. lapor kepala bengkel sesuai prodi.\n
+        </b>
         </div>
         """, unsafe_allow_html=True)
 
@@ -262,14 +264,15 @@ elif opsi == "Izin":
             border-radius: 10px;
             color: black;
         ">
-            <p style="font-size:40px; color:black;">
+            <p style="font-size:20px; color:black;">
                 Prosedur:
              </p>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
-           - Surat izin terencana \n
-           - Bukti Acara (contoh surat undangan)\n
+           -<b> Surat izin terencana \n
+           -<b> Bukti Acara (contoh surat undangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
+        </b>
         </div>
         """, unsafe_allow_html=True)
 
@@ -286,12 +289,11 @@ elif opsi == "Izin":
             <p style="font-size:20px; color:black;">
                 <b>Prosedur:</b>
              </p>
-        <b>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
-        <b>2. Siapkan:\n
-           - Surat izin tidak terencana\n
-           - Bukti Acara (contoh surat lelayu)\n
-        <b>3. lapor kepala bengkel sesuai prodi.\n
+        2. Siapkan:\n
+           -<b> Surat izin tidak terencana\n
+           -<b> Bukti Acara (contoh surat lelayu)\n
+        3. lapor kepala bengkel sesuai prodi.\n
         </b>
         </div>
         """, unsafe_allow_html=True)
