@@ -220,7 +220,7 @@ if opsi == "Sakit":
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
            -<b> Surat izin tidak terencana (boleh menyusul)\n
-           -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
+          -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
         </b>
         </div>
@@ -232,7 +232,8 @@ if opsi == "Sakit":
         label="📥 Download Surat",
         data=f,
         file_name="surat_ijin_tidak_masuk.pdf",
-        mime="application/pdf")
+        mime="application/pdf"
+    )
     else:
         st.markdown("""
         <div style="
@@ -255,7 +256,13 @@ if opsi == "Sakit":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin tidak terencana:")
-        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk.pdf"), unsafe_allow_html=True)
+        with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+         st.download_button(
+        label="📥 Download Surat",
+        data=f,
+        file_name="surat_ijin_tidak_masuk.pdf",
+        mime="application/pdf"
+    )
 
 elif opsi == "Izin":
     st.subheader("📝 Izin")
@@ -282,7 +289,13 @@ elif opsi == "Izin":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin terencana:")
-        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk_terencana.pdf"), unsafe_allow_html=True)
+        with open("surat_ijin_tidak_masuk_terencana.pdf", "rb") as f:
+         st.download_button(
+        label="📥 Download Surat",
+        data=f,
+        file_name="surat_ijin_tidak_masuk-terencana.pdf",
+        mime="application/pdf"
+    )
     else:
         st.markdown("""
         <div style="
@@ -304,7 +317,12 @@ elif opsi == "Izin":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin tidak terencana:")
-        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk.pdf"), unsafe_allow_html=True)
+        with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+         st.download_button(
+        label="📥 Download Surat",
+        data=f,
+        file_name="surat_ijin_tidak_masuk.pdf",
+        mime="application/pdf")
 
 elif opsi == "Pindah Section":
     st.subheader("🔄 Pindah Section")
@@ -372,7 +390,13 @@ elif opsi == "Surat Pernyataan":
 
     
     st.markdown("### Surat Pernyataan:")
-    st.markdown(tampilkan_pdf("Surat_pernyataan.pdf"), unsafe_allow_html=True)
+    with open("surat_pernyataan.pdf", "rb") as f:
+         st.download_button(
+        label="📥 Download Surat",
+        data=f,
+        file_name="surat_pernyataan.pdf",
+        mime="application/pdf"
+    )
 
 # ======================
 # FOOTER
