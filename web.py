@@ -31,6 +31,22 @@ img = get_base64("ATMI-SOLO-500x250.jpg")
 # ======================
 st.markdown(f"""
 <style>       
+            
+div.stDownloadButton > button {{
+ background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: bold;
+    border: none;
+}}
+
+/* Hover effect */
+div.stDownloadButton > button:hover {{
+    background-color: #0056b3;
+    color: white;
+}}
+
 /* label radio (judulnya) */
 div[data-testid="stRadio"] label p {{
     font-size: 20px !important;
@@ -383,10 +399,9 @@ elif opsi == "Interupsi":
                 <b>Prosedur :</b>
             </p>
             <ol>
-                <li>Izin instruktur section</li>
-                <li>Siapkan buku jam minus /MKL tergantung instruktur </li>
-                <li>Isi buku/MKL dengan benar</li>
-                <li>Minta tanda tangan/approval MKL dari Instruktur</li>
+                <li>izin instruktur section</li>
+                <li>siapkan buku jam minus /MKL tergantung instruktur </li>
+                <li>isi buku/MKL dengan benar</li>
                 <li>Jangan lupa tapping interupsi out sebelum keluar</li>
             </ol>
             </div>
@@ -406,7 +421,7 @@ elif opsi == "Surat Pernyataan":
     <ol>
         <li>Cetak surat pernyataan</li>
         <li>Isi dengan benar</li>
-        <li>Lapor Kepala Bengkel sesuai Prodi</li>
+        <li>Lapor instruktur/dosen</li>
     </ol>
     </div>
     """, unsafe_allow_html=True)
