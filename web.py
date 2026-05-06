@@ -299,8 +299,7 @@ elif opsi == "Izin":
         2. Siapkan:\n
            -<b> Surat izin terencana \n
            -<b> Bukti Acara (contoh surat undangan)\n
-        3. lapor kepala bengkel sesuai prodi.\n
-        4. Serahkan surat kepada penghitung jam plus-minus
+        3. Serahkan surat kepada penghitung jam plus-minus
         </b>
         </div>
         """, unsafe_allow_html=True)
@@ -328,7 +327,7 @@ elif opsi == "Izin":
         2. Siapkan:\n
            -<b> Surat izin tidak masuk\n
            -<b> Bukti Acara (contoh surat lelayu)\n
-        3. minta tanda tangan pada instruktur/dosen pengampu\n
+        3. Minta tanda tangan pada instruktur/dosen pengampu\n
         4. Serahkan surat kepada penghitung jam plus-minus
         </b>
         </div>
