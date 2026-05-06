@@ -234,8 +234,8 @@ if opsi == "Sakit":
             <p style="font-size:20px; color:black;">
                 Prosedur:
             </p>
-        1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
-        2. Siapkan:\n
+        1. Lapor pada hari H kepada instruktur/dosen yang mengampu pembelajaran(melalui wa).\n
+        2. Ketika masuk siapkan:\n
            -<b> Surat izin tidak masuk (boleh menyusul)\n
            -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
@@ -262,12 +262,12 @@ if opsi == "Sakit":
             <p style="font-size:20px; color:black;">
                 Prosedur:
             </p>
-        1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
-        2. Siapkan:\n
+         1. Lapor pada hari H kepada instruktur/dosen yang mengampu pembelajaran(melalui wa).\n
+         2. Ketika masuk siapkan:\n
            -<b> Surat dokter (rumah sakit / puskesmas)\n
            -<b> Surat izin tidak masuk\n
            -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
-        3. lapor kepala bengkel sesuai prodi.\n
+         3. lapor kepala bengkel sesuai prodi.\n
         </b>
         </div>
         """, unsafe_allow_html=True)
