@@ -227,7 +227,12 @@ if opsi == "Sakit":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin tidak terencana:")
-        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk.pdf"), unsafe_allow_html=True)
+        with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+         st.download_button(
+        label="📥 Download Surat",
+        data=f,
+        file_name="surat_ijin_tidak_masuk.pdf",
+        mime="application/pdf")
     else:
         st.markdown("""
         <div style="
