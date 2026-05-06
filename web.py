@@ -53,6 +53,23 @@ div[data-testid="stSelectbox"] label {{
     margin-bottom: 10px;
 }}
 
+.block-container:hover {{
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 150, 255, 0.6);
+}}
+
+.block-container {{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.2);
+}}
+            
+div[role="radiogroup"]:hover {{
+    transform: scale(1.02);
+    transition: 0.2s;
+}}          
+
 .stApp {{
     background-image: url("data:image/jpg;base64,{img}");
     background-size: cover;
@@ -62,6 +79,20 @@ div[data-testid="stSelectbox"] label {{
     color: white;
 }}
 
+.block-container {{
+    animation: fadeIn 0.8s ease-in-out;
+}}
+
+@keyframes fadeIn {{
+    from {{
+        opacity: 0;
+        transform: translateY(20px);
+    }}
+    to {{
+        opacity: 1;
+        transform: translateY(0);
+    }}
+}}
 
 .stApp::before {{
      content: "";
@@ -127,6 +158,14 @@ div[role="radiogroup"] {{
     border-radius: 8px;
     border: 2px solid #ff6f00;
     font-weight: bold;
+}}
+
+.stButton button {{
+    transition: all 0.2s ease;
+}}
+
+.stButton button:active {{
+    transform: scale(0.95);
 }}
 
 .stButton button:hover {{
