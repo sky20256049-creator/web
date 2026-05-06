@@ -234,11 +234,11 @@ if opsi == "Sakit":
             <p style="font-size:20px; color:black;">
                 Prosedur:
             </p>
-        1. Lapor pada hari H kepada kepala bengkel yang mengampu pembelajaran(melalui wa).\n
+        1. Lapor pada hari H kepada kepala bengkel(melalui wa).\n
         2. Ketika masuk siapkan:\n
            -<b> Surat izin tidak masuk (boleh menyusul)\n
            -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
-        3. Minta tanda tangan kepala bengkel.\n
+        3. Minta tanda tangan instruktur/dosen pengampu terkait.\n
         4. Kumpulkan semua surat kepada penghitung jam plus-minus
         </b>
         </div>
@@ -263,12 +263,12 @@ if opsi == "Sakit":
             <p style="font-size:20px; color:black;">
                 Prosedur:
             </p>
-         1. Lapor pada hari H kepada kepala bengkel yang mengampu pembelajaran(melalui wa).\n
+         1. Lapor pada hari H kepada kepala bengkel(melalui wa).\n
          2. Ketika masuk siapkan:\n
            -<b> Surat dokter (rumah sakit / puskesmas)\n
            -<b> Surat izin tidak masuk\n
            -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
-         3. Minta tanda tangan kepala bengkel.\n
+         3. Minta tanda tangan instruktur/dosen pengampu terkait.\n
          4. Kumpulkan semua surat kepada penghitung jam plus-minus
         </b>
         </div>
