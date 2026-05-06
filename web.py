@@ -324,12 +324,11 @@ elif opsi == "Izin":
             <p style="font-size:20px; color:black;">
                 <b>Prosedur:</b>
              </p>
-        1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
+        1. Lapor kepada kepala bengkel pada hari H.\n
         2. Siapkan:\n
            -<b> Surat izin tidak masuk\n
            -<b> Bukti Acara (contoh surat lelayu)\n
-        3. lapor kepala bengkel sesuai prodi.\n
-        4. Serahkan surat kepada penghitung jam plus-minus
+        3. Serahkan surat kepada penghitung jam plus-minus
         </b>
         </div>
         """, unsafe_allow_html=True)
