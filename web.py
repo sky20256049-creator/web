@@ -326,7 +326,7 @@ elif opsi == "Izin":
              </p>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
-           -<b> Surat izin tidak masul\n
+           -<b> Surat izin tidak masuk\n
            -<b> Bukti Acara (contoh surat lelayu)\n
         3. lapor kepala bengkel sesuai prodi.\n
         4. Serahkan surat kepada penghitung jam plus-minus
