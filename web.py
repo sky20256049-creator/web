@@ -353,11 +353,12 @@ elif opsi == "Pindah Section":
                 <b>Prosedur:</b>
              </p>
     <ol>
-        <li>Tanya istruktur section apakah bisa pindah section</li>
+        <li>Tanya istruktur awal dan instruktur section yang dituju apakah bisa pindah section</li>
+        <li>Cari teman yang ingin pindah ke section awal(jika ada)</li>
         <li>Ambil Surat Pindah Section di Resepsionis (jika tempat tersedia)</li>
         <li>Isi dengan benar </li>
         <li>Tanda tangan instruktur/dosen pengajar</li>
-        <li>lapor instruktur terkait
+        <li>lapor instruktur section yang dituju
     </ol>
     </div>
     """, unsafe_allow_html=True)
