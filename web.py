@@ -386,6 +386,7 @@ elif opsi == "Interupsi":
                 <li>izin instruktur section</li>
                 <li>siapkan buku jam minus /MKL tergantung instruktur </li>
                 <li>isi buku/MKL dengan benar</li>
+                <li>minta tanda tangan/approval MKL dari Instruktur</li>
                 <li>Jangan lupa tapping interupsi out sebelum keluar</li>
             </ol>
             </div>
