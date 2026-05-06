@@ -363,8 +363,8 @@ elif opsi == "Interupsi":
             <ol>
                 <li>Ambil surat interupsi di AA</li>
                 <li>Isi surat dengan benar</li>
-                <li>minta tanda tangan kepada petugas AA</li>
-                <li>Laporkan ke dosen pengampu atau Letakkan surat di meja dosen di kelas atau titip ke ketua kelas</li>
+                <li>Minta tanda tangan kepada petugas AA</li>
+                <li>Laporkan kepada dosen pengampu dengan menyerahkan surat secara langsung, meletakkannya di meja dosen di kelas, atau menitipkannya melalui ketua kelas.</li>
                 <li>Jangan lupa tapping interupsi out sebelum keluar</li>
                 <li>Pastikan surat tersampaikan kepada penghitung jam plus minus (setelah dosen pengajar mengetahui)</li>
             </ol>
