@@ -383,10 +383,10 @@ elif opsi == "Interupsi":
                 <b>Prosedur :</b>
             </p>
             <ol>
-                <li>izin instruktur section</li>
-                <li>siapkan buku jam minus /MKL tergantung instruktur </li>
-                <li>isi buku/MKL dengan benar</li>
-                <li>minta tanda tangan/approval MKL dari Instruktur</li>
+                <li>Izin instruktur section</li>
+                <li>Siapkan buku jam minus /MKL tergantung instruktur </li>
+                <li>Isi buku/MKL dengan benar</li>
+                <li>Minta tanda tangan/approval MKL dari Instruktur</li>
                 <li>Jangan lupa tapping interupsi out sebelum keluar</li>
             </ol>
             </div>
@@ -406,7 +406,7 @@ elif opsi == "Surat Pernyataan":
     <ol>
         <li>Cetak surat pernyataan</li>
         <li>Isi dengan benar</li>
-        <li>Lapor instruktur/dosen</li>
+        <li>Lapor Kepala Bengkel sesuai Prodi</li>
     </ol>
     </div>
     """, unsafe_allow_html=True)
