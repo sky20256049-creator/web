@@ -361,12 +361,12 @@ elif opsi == "Interupsi":
                 <b>Prosedur :</b>
             </p>
             <ol>
-                <li>Ambil surat interupsi di AA (minta tanda tangan)</li>
+                <li>Ambil surat interupsi di AA</li>
                 <li>Isi surat dengan benar</li>
-                <li>Laporkan ke dosen pengampu</li>
-                <li>Letakkan surat di meja dosen di kelas atau titip ke ketua kelas</li>
+                <li>minta tanda tangan kepada petugas AA</li>
+                <li>Laporkan ke dosen pengampu atau Letakkan surat di meja dosen di kelas atau titip ke ketua kelas</li>
                 <li>Jangan lupa tapping interupsi out sebelum keluar</li>
-                <li>Pastikan surat tersampaikan pada penghitung jam plus minus (setelah dosen pengajar mengetahui)</li>
+                <li>Pastikan surat tersampaikan kepada penghitung jam plus minus (setelah dosen pengajar mengetahui)</li>
             </ol>
             </div>
             """, unsafe_allow_html=True)
