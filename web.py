@@ -187,7 +187,7 @@ if opsi == "Sakit":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin tidak terencana:")
-        st.markdown(tampilkan_pdf("Surat ijin tidak masuk.pdf"), unsafe_allow_html=True)
+        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk.pdf"), unsafe_allow_html=True)
     else:
         st.markdown("""
         <div style="
@@ -209,7 +209,7 @@ if opsi == "Sakit":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin tidak terencana:")
-        st.markdown(tampilkan_pdf("Surat ijin tidak masuk.pdf"), unsafe_allow_html=True)
+        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk.pdf"), unsafe_allow_html=True)
 
 elif opsi == "Izin":
     st.subheader("📝 Izin")
@@ -235,7 +235,7 @@ elif opsi == "Izin":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin terencana:")
-        st.markdown(tampilkan_pdf("Surat ijin tidak masuk terencana.pdf"), unsafe_allow_html=True)
+        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk_terencana.pdf"), unsafe_allow_html=True)
     else:
         st.markdown("""
         <div style="
@@ -258,7 +258,7 @@ elif opsi == "Izin":
         """, unsafe_allow_html=True)
 
         st.markdown("### Surat Izin tidak terencana:")
-        st.markdown(tampilkan_pdf("Surat ijin tidak masuk.pdf"), unsafe_allow_html=True)
+        st.markdown(tampilkan_pdf("Surat_ijin_tidak_masuk.pdf"), unsafe_allow_html=True)
 
 elif opsi == "Pindah Section":
     st.subheader("🔄 Pindah Section")
@@ -326,7 +326,7 @@ elif opsi == "Surat Pernyataan":
 
     
     st.markdown("### Surat Pernyataan:")
-    st.markdown(tampilkan_pdf("Surat pernyataan.pdf"), unsafe_allow_html=True)
+    st.markdown(tampilkan_pdf("Surat_pernyataan.pdf"), unsafe_allow_html=True)
 
 # ======================
 # FOOTER
