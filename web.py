@@ -357,8 +357,8 @@ elif opsi == "Pindah Section":
         <li>Cari teman yang ingin pindah ke section awal(jika ada)</li>
         <li>Ambil Surat Pindah Section di Resepsionis (jika tempat tersedia)</li>
         <li>Isi dengan benar </li>
-        <li>Tanda tangan instruktur/dosen pengajar</li>
-        <li>lapor instruktur section yang dituju
+        <li>Tanda tangan instruktur/dosen section yang dituju</li>
+        <li>setelah selesai pindah section lapor kepala bengkel
     </ol>
     </div>
     """, unsafe_allow_html=True)
