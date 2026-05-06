@@ -221,7 +221,7 @@ if opsi == "Sakit":
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
            -<b> Surat izin tidak terencana (boleh menyusul)\n
-          -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
+           -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
         </b>
         </div>
