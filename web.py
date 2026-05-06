@@ -300,6 +300,7 @@ elif opsi == "Izin":
            -<b> Surat izin terencana \n
            -<b> Bukti Acara (contoh surat undangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
+        4. Serahkan surat kepada penghitung jam plus-minus
         </b>
         </div>
         """, unsafe_allow_html=True)
@@ -328,6 +329,7 @@ elif opsi == "Izin":
            -<b> Surat izin tidak terencana\n
            -<b> Bukti Acara (contoh surat lelayu)\n
         3. lapor kepala bengkel sesuai prodi.\n
+        4. Serahkan surat kepada penghitung jam plus-minus
         </b>
         </div>
         """, unsafe_allow_html=True)
