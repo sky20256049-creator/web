@@ -358,7 +358,7 @@ elif opsi == "Pindah Section":
         <li>Ambil Surat Pindah Section di Resepsionis (jika tempat tersedia)</li>
         <li>Isi dengan benar </li>
         <li>Tanda tangan instruktur/dosen section yang dituju</li>
-        <li>setelah selesai pindah section lapor kepala bengkel
+        <li>Setelah selesai pindah section lapor kepala bengkel
     </ol>
     </div>
     """, unsafe_allow_html=True)
