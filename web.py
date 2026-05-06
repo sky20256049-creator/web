@@ -236,14 +236,14 @@ if opsi == "Sakit":
             </p>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
-           -<b> Surat izin tidak terencana (boleh menyusul)\n
+           -<b> Surat izin tidak masuk (boleh menyusul)\n
            -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
         3. lapor kepala bengkel sesuai prodi.\n
         </b>
         </div>
         """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin tidak terencana:")
+        st.markdown("### Surat Izin tidak masuk:")
         with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
          st.download_button(
            label="📥 Download Surat",
@@ -265,14 +265,14 @@ if opsi == "Sakit":
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
            -<b> Surat dokter (rumah sakit / puskesmas)\n
-           -<b> Surat izin tidak terencana\n
+           -<b> Surat izin tidak masuk\n
            -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
         3. lapor kepala bengkel sesuai prodi.\n
         </b>
         </div>
         """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin tidak terencana:")
+        st.markdown("### Surat Izin tidak masuk:")
         with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
          st.download_button(
            label="📥 Download Surat",
@@ -282,7 +282,7 @@ if opsi == "Sakit":
          
 elif opsi == "Izin":
     st.subheader("📝 Izin")
-    Jenis = st.radio("Jenis Izin", ["Terencana", "Tidak Terencana"])
+    Jenis = st.radio("Jenis Izin", ["Terencana", "Tidak Masuk"])
 
     if Jenis == "Terencana":
         st.markdown("""
@@ -326,7 +326,7 @@ elif opsi == "Izin":
              </p>
         1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
         2. Siapkan:\n
-           -<b> Surat izin tidak terencana\n
+           -<b> Surat izin tidak masul\n
            -<b> Bukti Acara (contoh surat lelayu)\n
         3. lapor kepala bengkel sesuai prodi.\n
         4. Serahkan surat kepada penghitung jam plus-minus
@@ -334,7 +334,7 @@ elif opsi == "Izin":
         </div>
         """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin tidak terencana:")
+        st.markdown("### Surat Izin tidak masuk:")
         with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
          st.download_button(
            label="📥 Download Surat",
