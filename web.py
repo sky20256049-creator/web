@@ -210,9 +210,9 @@ section = st.selectbox(
 # 📌 OPSI DINAMIS
 # ======================
 if section == "Teori":
-    opsi_list = ["Sakit", "Izin", "Interupsi", "Surat Pernyataan"]
+    opsi_list = ["Sakit", "Izin", "Interupsi"]
 else:  # Praktek
-    opsi_list = ["Sakit", "Izin", "Pindah Section", "Interupsi", "Surat Pernyataan"]
+    opsi_list = ["Sakit", "Izin", "Pindah Section", "Interupsi"]
 
 opsi = st.selectbox("Jenis Perizinan", opsi_list)
 
@@ -236,14 +236,13 @@ if opsi == "Sakit":
                 <p style="font-size:20px; color:black;">
                     <b>Prosedur :</b>
                 </p>
-            1. Lapor pada hari H kepada kepala bengkel (melalui WA).\n
-            2. Ketika masuk siapkan:\n
-               -<b> Surat izin tidak masuk (boleh menyusul)\n
+            1. Lapor kepada kepala bengkel pada hari H (melalui WA).\n
+            2. Ketika masuk, siapkan:\n
+               -<b> Forum surat izin Tidak Masuk dengan tanda tangan orang tua/wali\n
                -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
-               </b>
-                        
-           3. Minta tanda tangan kepala bengkel.\n
-           4. Kumpulkan semua surat kepada penghitung jam plus-minus
+               </b>          
+            3. Minta tanda tangan forum surat izin kepada kepala bengkel.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus
             </div>
             """, unsafe_allow_html=True)
 
@@ -266,12 +265,12 @@ if opsi == "Sakit":
             <p style="font-size:20px; color:black;">
                 <b>Prosedur :</b>
             </p>
-            1. Lapor pada hari H kepada instruktur/dosen terkait (melalui WA).\n
+            1. Lapor kepada instruktur/dosen pada hari H (melalui WA).\n
             2. Ketika masuk siapkan:\n
-               -<b> Surat izin tidak masuk\n
+               -<b> Forum surat izin Tidak Masuk dengan tanda tangan orang tua/wali\n
                -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
                </b>      
-            3. Minta tanda tangan instruktur/dosen terkait.\n
+            3. Minta tanda tangan forum surat izin kepada instruktur/dosen.\n
             4. Kumpulkan semua surat kepada penghitung jam plus-minus
             </div>
             """, unsafe_allow_html=True)
@@ -296,14 +295,14 @@ if opsi == "Sakit":
                 <p style="font-size:20px; color:black;">
                     <b>Prosedur :</b>
                 </p>
-            1. Lapor pada hari H kepada kepala bengkel (melalui WA).\n
-            2. Ketika masuk siapkan:\n
-               -<b> Surat dokter (rumah sakit / puskesmas)\n
-               -<b> Surat izin tidak masuk\n
-               -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
-            3. Minta tanda tangan kepala bengkel.\n
-            4. Kumpulkan semua surat kepada penghitung jam plus-minus
-            </b>
+            1. Lapor kepada kepala bengkel pada hari H (melalui WA).\n
+            2. Ketika masuk, siapkan:\n
+               -<b> Forum surat izin Tidak Masuk dengan tanda tangan orang tua/wali\n
+               -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
+               -<b> Surat dokter (rumah sakit/puskesmas)\n      
+            3. Minta tanda tangan forum surat izin kepada kepala bengkel.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus 
+            </b>  
             </div>
             """, unsafe_allow_html=True)
 
@@ -326,14 +325,14 @@ if opsi == "Sakit":
             <p style="font-size:20px; color:black;">
                 <b>Prosedur :</b>
             </p>
-            1. Lapor pada hari H kepada instruktur/dosen terkait (bisa melalui WA).\n
+            1. Lapor kepada instruktur/dosen pada hari H (melalui WA).\n
             2. Ketika masuk siapkan:\n
-               -<b> Surat dokter (rumah sakit / puskesmas)\n
-               -<b> Surat izin tidak masuk\n
+               -<b> Forum surat izin Tidak Masuk dengan tanda tangan orang tua/wali\n
                -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
-            3. Minta tanda tangan instruktur/dosen terkait.\n
+               -<b> Surat dokter (rumah sakit/puskesmas)\n
+               </b>      
+            3. Minta tanda tangan forum surat izin kepada instruktur/dosen.\n
             4. Kumpulkan semua surat kepada penghitung jam plus-minus
-            </b>
             </div>
             """, unsafe_allow_html=True)
 
@@ -361,11 +360,11 @@ elif opsi == "Izin":
                 <p style="font-size:20px; color:black;">
                     <b>Prosedur :</b>
                 </p>
-            1.Lapor sebelum hari H-1 kepada kepala bengkel (melalui WA)\n
-            2.Ketika masuk siapkan:\n
-              -<b> Surat izin tidak masuk terencana\n
+            1.Lapor kepada kepala bengkel maksimal H-1\n
+            2.Dengan menyiapkan:\n
+              -<b> Forum surat izin Terencana (dengan tanda tangan orangtua/wali)\n
               -<b> Bukti Acara (Contoh: Surat Undangan)\n
-            3.Minta tanda tangan kepala bengkel\n
+            3.Minta tanda tangan Forum surat izin kepada kepala bengkel\n
             4.Kumpulkan semua surat kepada penghitung jam plus-minus\n
             </b>
             </div>
@@ -390,12 +389,12 @@ elif opsi == "Izin":
             <p style="font-size:20px; color:black;">
                 <b>Prosedur :</b>
             </p>
-            1. Lapor sebelum hari H-1 kepada instruktur/dosen terkait (bisa melalui WA).\n
-            2. Ketika masuk siapkan:\n
-               -<b> Surat izin tidak masuk\n
-               -<b> Bukti Acara (Contoh: Surat Undangan)\n
-            3. Minta tanda tangan instruktur/dosen terkait.\n
-            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            1.Lapor kepada instruktur/dosen maksimal H-1\n
+            2.Dengan menyiapkan:\n
+              -<b> Forum surat izin Terencana (dengan tanda tangan orangtua/wali)\n
+              -<b> Bukti Acara (Contoh: Surat Undangan)\n
+            3.Minta tanda tangan Forum surat izin kepada instruktur/dosen\n
+            4.Kumpulkan semua surat kepada penghitung jam plus-minus\n
             </b>
             </div>
             """, unsafe_allow_html=True)
@@ -420,11 +419,11 @@ elif opsi == "Izin":
                 <p style="font-size:20px; color:black;">
                     <b>Prosedur :</b>
                 </p>
-            1.Lapor pada hari H kepada kepala bengkel (melalui WA)\n
-            2.Ketika masuk siapkan:\n
-              -<b> Surat izin tidak masuk\n
-              -<b> Bukti Acara (Contoh: Surat Undangan)\n
-            3.Minta tanda tangan kepala bengkel\n
+            1. Lapor kepada kepala bengkel pada hari H (melalui WA).\n
+            2.Dengan menyiapkan:\n
+              -<b> Forum surat izin Tidak Masuk (dengan tanda tangan orangtua/wali)\n
+              -<b> Bukti Acara (Contoh: Surat melayu orang meninggal)\n
+            3.Minta tanda tangan Forum surat izin kepada kepala bengkel\n
             4.Kumpulkan semua surat kepada penghitung jam plus-minus\n
             </b>
             </div>
@@ -449,12 +448,12 @@ elif opsi == "Izin":
             <p style="font-size:20px; color:black;">
                 <b>Prosedur :</b>
             </p>
-            1. Lapor pada hari H instruktur/dosen terkait (bisa melalui WA).\n
-            2. Ketika masuk siapkan:\n
-               -<b> Surat izin tidak masuk\n
-               -<b> Bukti Acara (Contoh: Surat Undangan)\n
-            3. Minta tanda tangan instruktur/dosen terkait.\n
-            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            1. Lapor kepada instruktur/dosen pada hari H (melalui WA).\n
+            2.Dengan menyiapkan:\n
+              -<b> Forum surat izin Tidak Masuk (dengan tanda tangan orangtua/wali)\n
+              -<b> Bukti Acara (Contoh: Surat melayu orang meninggal)\n
+            3.Minta tanda tangan Forum surat izin kepada instruktur/dosen\n
+            4.Kumpulkan semua surat kepada penghitung jam plus-minus\n
             </b>
             </div>
             """, unsafe_allow_html=True)
@@ -480,8 +479,9 @@ elif opsi == "Pindah Section":
                 <b>Prosedur:</b>
              </p>
     <ol>
-        <li>Tanya istruktur awal dan instruktur section yang dituju apakah bisa pindah section</li>
+        <li>Tanya istruktur asal dan yang dituju apakah bisa pindah section</li>
         <li>Cari teman yang ingin pindah ke section awal(jika ada)</li>
+        <li>Konfirmasi ke kepala bengkel</li>
         <li>Ambil Surat Pindah Section di Resepsionis (jika tempat tersedia)</li>
         <li>Isi dengan benar </li>
         <li>Tanda tangan instruktur/dosen section yang dituju</li>
@@ -534,28 +534,7 @@ elif opsi == "Interupsi":
             </ol>
             </div>
             """, unsafe_allow_html=True)
-elif opsi == "Surat Pernyataan":
-    st.subheader("📑 Surat Pernyataan")
-    st.markdown("""
-    <div style="
-            background-color: rgba(255,255,255,0.8);
-            padding: 15px;
-            border-radius: 10px;
-            color: black;
-        ">
-    <p style="font-size:40px; color:black;">
-                <b>Prosedur:</b>
-             </p>
-    <ol>
-        <li>Cetak surat pernyataan</li>
-        <li>Isi dengan benar</li>
-        <li>Jangan lupa tanda tangan diri sendiri dan orangtua/wali</li>
-        <li>Minta tanda tangan kepala bengkel sesuai prodi</li>
-        <li>Lapor kepala bengkel sesuai prodi</li>
-    </ol>
-    </div>
-    """, unsafe_allow_html=True)
-    
+
     st.markdown("### Surat Pernyataan:")
     with open("surat_pernyataan.pdf", "rb") as f:
          st.download_button(
