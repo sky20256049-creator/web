@@ -223,126 +223,249 @@ opsi = st.selectbox("Jenis Perizinan", opsi_list)
 if opsi == "Sakit":
     st.subheader("🤒 Sakit")
     durasi = st.radio("Durasi sakit", ["1 Hari", "> 1 Hari"])
-    if durasi == "1 Hari":
-        st.markdown("""
-        <div style="
-            background-color: rgba(255,255,255,0.8);
-            padding: 15px;
-            border-radius: 10px;
-            color: black;
-        ">
-            <p style="font-size:20px; color:black;">
-                Prosedur:
-            </p>
-        1. Lapor pada hari H kepada kepala bengkel(melalui wa).\n
-        2. Ketika masuk siapkan:\n
-           -<b> Surat izin tidak masuk (boleh menyusul)\n
-           -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
-        3. Minta tanda tangan instruktur/dosen pengampu terkait.\n
-        4. Kumpulkan semua surat kepada penghitung jam plus-minus
-        </b>
-        </div>
-        """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin tidak masuk:")
-        with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
-         st.download_button(
-           label="📥 Download Surat",
-           data=f,
-           file_name="surat_ijin_tidak_masuk.pdf",
-           mime="application/pdf")
+    if durasi == "1 Hari":
+        if section == "Teori":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+                <p style="font-size:20px; color:black;">
+                    <b>Prosedur :</b>
+                </p>
+            1. Lapor pada hari H kepada kepala bengkel (melalui WA).\n
+            2. Ketika masuk siapkan:\n
+               -<b> Surat izin tidak masuk (boleh menyusul)\n
+               -<b> Surat dari orang tua/wali (dengan tanda tangan)\n
+               </b>
+                        
+           3. Minta tanda tangan kepala bengkel.\n
+           4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown("### Surat Izin Tidak Masuk:")
+            with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+             st.download_button(
+               label="📥 Download Surat",
+               data=f,
+               file_name="surat_ijin_tidak_masuk.pdf",
+               mime="application/pdf" )
+
+        elif section == "Praktek":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+            <p style="font-size:20px; color:black;">
+                <b>Prosedur :</b>
+            </p>
+            1. Lapor pada hari H kepada instruktur/dosen terkait (melalui WA).\n
+            2. Ketika masuk siapkan:\n
+               -<b> Surat izin tidak masuk\n
+               -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
+               </b>      
+            3. Minta tanda tangan instruktur/dosen terkait.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown("### Surat Izin Tidak Masuk:")
+            with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+             st.download_button(
+              label="📥 Download Surat",
+              data=f,
+              file_name="surat_ijin_tidak_masuk.pdf",
+              mime="application/pdf" )
          
     else:
-        st.markdown("""
-        <div style="
-             background-color: rgba(255,255,255,0.8);
-             padding: 15px;
-             border-radius: 10px;
-            color: black;
-        ">
-            <p style="font-size:20px; color:black;">
-                Prosedur:
-            </p>
-         1. Lapor pada hari H kepada kepala bengkel(melalui wa).\n
-         2. Ketika masuk siapkan:\n
-           -<b> Surat dokter (rumah sakit / puskesmas)\n
-           -<b> Surat izin tidak masuk\n
-           -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
-         3. Minta tanda tangan instruktur/dosen pengampu terkait.\n
-         4. Kumpulkan semua surat kepada penghitung jam plus-minus
-        </b>
-        </div>
-        """, unsafe_allow_html=True)
+         if section == "Teori":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+                <p style="font-size:20px; color:black;">
+                    <b>Prosedur :</b>
+                </p>
+            1. Lapor pada hari H kepada kepala bengkel (melalui WA).\n
+            2. Ketika masuk siapkan:\n
+               -<b> Surat dokter (rumah sakit / puskesmas)\n
+               -<b> Surat izin tidak masuk\n
+               -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
+            3. Minta tanda tangan kepala bengkel.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            </b>
+            </div>
+            """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin tidak masuk:")
-        with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
-         st.download_button(
-           label="📥 Download Surat",
-           data=f,
-           file_name="surat_ijin_tidak_masuk.pdf",
-           mime="application/pdf"  )
+            st.markdown("### Surat Izin Tidak Masuk:")
+            with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+             st.download_button(
+               label="📥 Download Surat",
+               data=f,
+               file_name="surat_ijin_tidak_masuk.pdf",
+               mime="application/pdf" )
+
+         elif section == "Praktek":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+            <p style="font-size:20px; color:black;">
+                <b>Prosedur :</b>
+            </p>
+            1. Lapor pada hari H kepada instruktur/dosen terkait (bisa melalui WA).\n
+            2. Ketika masuk siapkan:\n
+               -<b> Surat dokter (rumah sakit / puskesmas)\n
+               -<b> Surat izin tidak masuk\n
+               -<b> Surat dari orang tua/wali *(dengan tanda tangan)*\n
+            3. Minta tanda tangan instruktur/dosen terkait.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            </b>
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown("### Surat Izin Tidak Masuk:")
+            with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+             st.download_button(
+               label="📥 Download Surat",
+               data=f,
+               file_name="surat_ijin_tidak_masuk.pdf",
+               mime="application/pdf")
          
 elif opsi == "Izin":
     st.subheader("📝 Izin")
     Jenis = st.radio("Jenis Izin", ["Terencana", "Tidak Masuk"])
 
     if Jenis == "Terencana":
-        st.markdown("""
-        <div style="
-            background-color: rgba(255,255,255,0.8);
-            padding: 15px;
-            border-radius: 10px;
-            color: black;
-        ">
-            <p style="font-size:20px; color:black;">
-                Prosedur:
-             </p>
-        1. Lapor kepada instruktur/dosen yang mengampu pembelajaran.\n
-        2. Siapkan:\n
-           -<b> Surat izin terencana \n
-           -<b> Bukti Acara (contoh surat undangan)\n
-        3. Minta tanda tangan pada instruktur/dosen pengampu\n
-        4. Serahkan surat kepada penghitung jam plus-minus
-        </b>
-        </div>
-        """, unsafe_allow_html=True)
+        if section == "Teori":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+                <p style="font-size:20px; color:black;">
+                    <b>Prosedur :</b>
+                </p>
+            1.Lapor sebelum hari H-1 kepada kepala bengkel (melalui WA)\n
+            2.Ketika masuk siapkan:\n
+              -<b> Surat izin tidak masuk terencana\n
+              -<b> Bukti Acara (Contoh: Surat Undangan)\n
+            3.Minta tanda tangan kepala bengkel\n
+            4.Kumpulkan semua surat kepada penghitung jam plus-minus\n
+            </b>
+            </div>
+            """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin terencana:")
-        with open("surat_ijin_tidak_masuk_terencana.pdf", "rb") as f:
-         st.download_button(
-           label="📥 Download Surat",
-           data=f,
-           file_name="surat_ijin_tidak_masuk_terencana.pdf",
-           mime="application/pdf" )
+            st.markdown("### Surat Izin Terencana:")
+            with open("surat_ijin_tidak_masuk_terencana.pdf", "rb") as f:
+             st.download_button(
+               label="📥 Download Surat",
+               data=f,
+               file_name="surat_ijin_tidak_masuk_terencana.pdf",
+               mime="application/pdf" )
+
+        elif section == "Praktek":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+            <p style="font-size:20px; color:black;">
+                <b>Prosedur :</b>
+            </p>
+            1. Lapor sebelum hari H-1 kepada instruktur/dosen terkait (bisa melalui WA).\n
+            2. Ketika masuk siapkan:\n
+               -<b> Surat izin tidak masuk\n
+               -<b> Bukti Acara (Contoh: Surat Undangan)\n
+            3. Minta tanda tangan instruktur/dosen terkait.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            </b>
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown("### Surat Izin Terencana:")
+            with open("surat_ijin_tidak_masuk_terencana.pdf", "rb") as f:
+             st.download_button(
+              label="📥 Download Surat",
+              data=f,
+              file_name="surat_ijin_tidak_masuk_terencana.pdf",
+              mime="application/pdf" )
          
     else:
-        st.markdown("""
-        <div style="
-            background-color: rgba(255,255,255,0.8);
-            padding: 15px;
-            border-radius: 10px;
-            color: black;
-        ">
-            <p style="font-size:20px; color:black;">
-                <b>Prosedur:</b>
-             </p>
-        1. Lapor kepada kepala bengkel pada hari H.\n
-        2. Siapkan:\n
-           -<b> Surat izin tidak masuk\n
-           -<b> Bukti Acara (contoh surat lelayu)\n
-        3. Minta tanda tangan pada instruktur/dosen pengampu\n
-        4. Serahkan surat kepada penghitung jam plus-minus
-        </b>
-        </div>
-        """, unsafe_allow_html=True)
+         if section == "Teori":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+                <p style="font-size:20px; color:black;">
+                    <b>Prosedur :</b>
+                </p>
+            1.Lapor pada hari H kepada kepala bengkel (melalui WA)\n
+            2.Ketika masuk siapkan:\n
+              -<b> Surat izin tidak masuk\n
+              -<b> Bukti Acara (Contoh: Surat Undangan)\n
+            3.Minta tanda tangan kepala bengkel\n
+            4.Kumpulkan semua surat kepada penghitung jam plus-minus\n
+            </b>
+            </div>
+            """, unsafe_allow_html=True)
 
-        st.markdown("### Surat Izin tidak masuk:")
-        with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
-         st.download_button(
-           label="📥 Download Surat",
-           data=f,
-           file_name="surat_ijin_tidak_masuk.pdf",
-           mime="application/pdf")
+            st.markdown("### Surat Izin Tidak Masuk:")
+            with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+             st.download_button(
+               label="📥 Download Surat",
+               data=f,
+               file_name="surat_ijin_tidak_masuk.pdf",
+               mime="application/pdf" )
+
+         elif section == "Praktek":
+            st.markdown("""
+            <div style="
+                    background-color: rgba(255,255,255,0.8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    color: black;
+                ">
+            <p style="font-size:20px; color:black;">
+                <b>Prosedur :</b>
+            </p>
+            1. Lapor pada hari H instruktur/dosen terkait (bisa melalui WA).\n
+            2. Ketika masuk siapkan:\n
+               -<b> Surat izin tidak masuk\n
+               -<b> Bukti Acara (Contoh: Surat Undangan)\n
+            3. Minta tanda tangan instruktur/dosen terkait.\n
+            4. Kumpulkan semua surat kepada penghitung jam plus-minus
+            </b>
+            </div>
+            """, unsafe_allow_html=True)
+
+            st.markdown("### Surat Izin Tidak Masuk:")
+            with open("surat_ijin_tidak_masuk.pdf", "rb") as f:
+             st.download_button(
+               label="📥 Download Surat",
+               data=f,
+               file_name="surat_ijin_tidak_masuk.pdf",
+               mime="application/pdf")
 
 elif opsi == "Pindah Section":
     st.subheader("🔄 Pindah Section")
